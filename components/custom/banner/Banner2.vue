@@ -9,11 +9,10 @@
           <v-col cols="12" md="8" class="d-flex align-center">
             <div class="text-center">
               <h2 class="banner2-title font-weight-light">
-                I’m Johanthan Doe, an
-                <span class="font-weight-bold">
-                  Entreprenuer, Designer & Front-end Developer,
-                </span>
-                Making
+                <p>I’m Charmyne Mamador,</p>
+                <p class="font-weight-bold">
+                  Information Designer, Visualization Developer & Product Manager
+                </p>
               </h2>
 
               <div class="mt-16 pt-2">

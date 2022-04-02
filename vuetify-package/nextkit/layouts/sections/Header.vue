@@ -6,7 +6,7 @@
     <v-app-bar app absolute class="app-header" flat elevate-on-scroll>
       <v-container class="py-0 fill-height">
         <!-- Logo -->
-        <Logo />
+        <!-- <Logo /> -->
 
         <v-spacer></v-spacer>
         <v-btn class="d-block d-md-none" text @click="toggleClass()">

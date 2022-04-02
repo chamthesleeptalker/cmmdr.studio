@@ -3,7 +3,7 @@
     <!-- -----------------------------------------------
     Banner
     ----------------------------------------------- -->
-    <Banner />
+    <!-- <Banner /> -->
     <!-- -----------------------------------------------
     ./ Banner
     ----------------------------------------------- -->
@@ -17,7 +17,7 @@
     <!-- -----------------------------------------------
     Coming Soon
     ----------------------------------------------- -->
-    <ComingSoon />
+    <!-- <ComingSoon /> -->
     <!-- -----------------------------------------------
     ./ Coming Soon
     ----------------------------------------------- -->
@@ -43,8 +43,8 @@ export default {
     return {};
   },
   components: {
-    Banner: () => import("@/components/shared/lp-banner/Banner"),
-    ComingSoon: () => import("@/components/shared/coming-soon/ComingSoon"),
+    // Banner: () => import("@/components/shared/lp-banner/Banner"),
+    // ComingSoon: () => import("@/components/shared/coming-soon/ComingSoon"),
     AllCustomComponents: () =>
       import("@/components/custom/AllCustomComponents"),
   },

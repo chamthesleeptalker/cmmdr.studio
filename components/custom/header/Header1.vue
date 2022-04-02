@@ -10,16 +10,16 @@
     >
       <v-container class="py-0 fill-height">
         <!-- Logo -->
-        <div class="logo">
+        <!-- <div class="logo">
           <NLink to="/">
             <v-img
               :src="require('@/assets/images/logos/purple-logo.png')"
               alt="logo"
             />
           </NLink>
-        </div>
+        </div> -->
 
-        <v-spacer></v-spacer>
+        <!-- <v-spacer></v-spacer> -->
         <v-btn class="d-block d-md-none" text @click="toggleClass()">
           <v-app-bar-nav-icon />
         </v-btn>
@@ -34,21 +34,18 @@
               <n-link class="nav-link" nuxt to="/"> Home </n-link>
             </li>
             <li class="nav-item" text>
-              <n-link class="nav-link" nuxt to="/about"> About Me </n-link>
+              <n-link class="nav-link" nuxt to="/about-me"> About Me </n-link>
             </li>
             <li class="nav-item" text>
               <n-link class="nav-link" nuxt to="/work"> Work </n-link>
             </li>
             <li class="nav-item" text>
-              <n-link class="nav-link" nuxt to="/services"> Services </n-link>
-            </li>
-            <li class="nav-item" text>
-              <n-link class="nav-link" nuxt to="/freebies"> Freebies </n-link>
+              <n-link class="nav-link" nuxt to="/blog"> Blog </n-link>
             </li>
           </ul>
         </div>
         <!-- login-regiter -->
-        <v-btn
+        <!-- <v-btn
           class="d-none d-lg-flex btn-custom-nm ml-5"
           nuxt
           outlined
@@ -57,7 +54,7 @@
           elevation="0"
         >
           Hire Me
-        </v-btn>
+        </v-btn> -->
       </v-container>
     </v-app-bar>
     <!-- -----------------------------------------------

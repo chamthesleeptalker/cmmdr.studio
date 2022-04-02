@@ -6,7 +6,7 @@
     <v-app-bar app absolute class="app-header" flat elevate-on-scroll>
       <v-container class="py-0 fill-height">
         <!-- Logo -->
-        <Logo />
+        <!-- <Logo /> -->
 
         <v-spacer></v-spacer>
         <v-btn class="d-block d-md-none" text @click="toggleClass()">
@@ -29,7 +29,7 @@
             </li>
             <li class="nav-item">
               <!-- login-regiter -->
-              <v-btn
+              <!-- <v-btn
                 color="white"
                 nuxt
                 target="_blank"
@@ -37,7 +37,7 @@
                 elevation="0"
               >
                 Download Free
-              </v-btn>
+              </v-btn> -->
             </li>
           </ul>
         </div>

@@ -36,12 +36,12 @@
               </div>
             </div>
           </v-col>
-          <v-col cols="12" md="5" lg="6" class="ml-auto">
+          <!-- <v-col cols="12" md="5" lg="6" class="ml-auto">
             <v-img
               :src="require('@/assets/images/form-banner/form-banner1.png')"
               alt="banner"
             />
-          </v-col>
+          </v-col> -->
         </v-row>
 
         <!-- -----------------------------------------------
