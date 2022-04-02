@@ -41,8 +41,9 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+$ npm run deploy
 ```
-
+For more info on gh-pages deployment, click [here](https://nuxtjs.org/deployments/github-pages/).
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 ## Special Directories

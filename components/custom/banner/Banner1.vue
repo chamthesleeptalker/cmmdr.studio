@@ -9,7 +9,7 @@
           <v-col cols="12" md="7" lg="6" class="d-flex align-center">
             <div class="text-center text-md-left">
               <v-chip small class="bg-dark" text-color="white">
-                Creating Brands
+                work in progress
               </v-chip>
               <h2
                 class="
@@ -19,35 +19,35 @@
                   white--text
                 "
               >
-                ONE BILLON PEOPLE USE FACEBOOK
+                information design and data visualization
               </h2>
-              <p class="white--text op-8 font-weight-regular">
+              <!-- <p class="white--text op-8 font-weight-regular">
                 Pellentesque vehicula eros a dui pretium ornare. Phasellus
                 congue vel quam nec luctus.In accumsan at eros in dignissim.
                 Cras sodales nisi nonn accumsan.
-              </p>
+              </p> -->
               <div class="mt-16 pt-2">
                 <v-btn
                   nuxt
                   large
                   rounded
-                  to="/basic-components"
+                  to="/home"
                   class="btn-custom-md"
                   depressed
                   color="white"
                   elevation="0"
                 >
-                  Do you Need Help ?
+                  Back to Home
                 </v-btn>
               </div>
             </div>
           </v-col>
-          <v-col cols="12" md="5" lg="5">
+          <!-- <v-col cols="12" md="5" lg="5">
             <v-img
               :src="require('@/assets/images/banner/banner1.jpg')"
               alt="banner"
             />
-          </v-col>
+          </v-col> -->
         </v-row>
 
         <!-- -----------------------------------------------

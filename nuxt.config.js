@@ -1,15 +1,19 @@
 export default {
+  dev: process.env.NODE_ENV !== 'development',
+  //dev: process.env.NODE_ENV !== 'production',
+  
   target: 'static',
   router: {
     base: '/cmmdr.studio/'
   },
+  extractCSS: true,
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - Nuxt js UI Kit",
-    title: "NuxtJs UI kit | Free UI kit built with Vuetifyy",
+    titleTemplate: "%s",
+    title: "cmmdr.studio",
     htmlAttrs: {
       lang: "en"
     },

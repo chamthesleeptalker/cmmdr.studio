@@ -18,15 +18,16 @@
               <v-card-text>
                 <div class="pa-10 text-center">
                   <v-chip small color="info" text-color="white">
-                    Feature 3
+                    Data Portrait
+                  </v-chip>
+                  <v-chip small color="success" text-color="white">
+                    Latest
                   </v-chip>
                   <h3 class="feature3-title font-weight-medium">
-                    The New way of Making Your Website in mins
+                    To all the WOMEN of the world
                   </h3>
                   <p>
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. You will love it
-                    for sure.
+                    Awesome women shared their thoughts about #iwd2022, gender bias, and empowering each other.
                   </p>
                   <v-btn
                     color="error"

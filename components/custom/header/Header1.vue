@@ -39,9 +39,9 @@
             <li class="nav-item" text>
               <n-link class="nav-link" nuxt to="/work"> Work </n-link>
             </li>
-            <li class="nav-item" text>
+            <!-- <li class="nav-item" text>
               <n-link class="nav-link" nuxt to="/blog"> Blog </n-link>
-            </li>
+            </li> -->
           </ul>
         </div>
         <!-- login-regiter -->

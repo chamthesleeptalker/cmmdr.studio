@@ -1,7 +1,7 @@
 <template>
   <div>
       <Header1 />
-      <ComingSoon />
+      <Banner1 />
   </div>
 </template>
 
@@ -15,7 +15,8 @@ export default {
 
   components: {
     Header1: () => import("@/components/custom/header/Header1"),
-    ComingSoon: () => import("@/components/shared/coming-soon/ComingSoon"),
+    // ComingSoon: () => import("@/components/shared/coming-soon/ComingSoon"),
+    Banner1: () => import("@/components/custom/banner/Banner1"),
   },
 };
 </script>

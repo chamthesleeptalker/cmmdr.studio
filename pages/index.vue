@@ -1,26 +1,13 @@
 <template>
   <div>
-    <!-- -----------------------------------------------
-    Banner
-    ----------------------------------------------- -->
-    <!-- <Banner /> -->
-    <!-- -----------------------------------------------
-    ./ Banner
-    ----------------------------------------------- -->
-    <!-- -----------------------------------------------
-    All Components
-    ----------------------------------------------- -->
-    <AllCustomComponents />
-    <!-- -----------------------------------------------
-    ./ All Components
-    ----------------------------------------------- -->
-    <!-- -----------------------------------------------
-    Coming Soon
-    ----------------------------------------------- -->
-    <!-- <ComingSoon /> -->
-    <!-- -----------------------------------------------
-    ./ Coming Soon
-    ----------------------------------------------- -->
+    <Header1 />
+    <Banner2 />
+    <Feature3 />
+    <!-- <PortfolioText /> -->
+    <Portfolio />
+    <!-- <Blog />
+    <ContactText />
+    <Contact /> -->
   </div>
 </template>
 
@@ -43,10 +30,15 @@ export default {
     return {};
   },
   components: {
-    // Banner: () => import("@/components/shared/lp-banner/Banner"),
-    // ComingSoon: () => import("@/components/shared/coming-soon/ComingSoon"),
-    AllCustomComponents: () =>
-      import("@/components/custom/AllCustomComponents"),
+    Header1: () => import("@/components/custom/header/Header1"),
+    Banner2: () => import("@/components/custom/banner/Banner2"),
+    Feature3: () => import("@/components/custom/features/Feature3"),
+    FormBanner1: () => import("@/components/custom/form-banner/FormBanner1"),
+    PortfolioText: () => import("@/components/custom/portfolio/PortfolioText"),
+    Portfolio: () => import("@/components/custom/portfolio/Portfolio"),
+    Blog: () => import("@/components/custom/blogs/Blog"),
+    ContactText: () => import("@/components/custom/contact/ContactText"),
+    Contact: () => import("@/components/custom/contact/Contact"),
   },
 };
 </script>
