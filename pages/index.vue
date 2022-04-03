@@ -5,9 +5,9 @@
     <Feature3 />
     <!-- <PortfolioText /> -->
     <Portfolio />
-    <!-- <Blog />
-    <ContactText />
-    <Contact /> -->
+    <!-- <Blog /> -->
+    <!-- <ContactText /> -->
+    <!-- <Contact /> -->
   </div>
 </template>
 

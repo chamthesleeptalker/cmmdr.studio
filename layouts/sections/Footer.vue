@@ -41,20 +41,7 @@
         <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
           <h4 class="font-weight-regular font-18">Social</h4>
 
-          <div class="social-icons mt-10">
-            <a href="https://www.facebook.com/cmmdr.studio">
-              <i class="mdi mdi-facebook"></i>
-            </a>
-            <a href="https://twitter.com/c_mmdr">
-              <i class="mdi mdi-twitter"></i>
-            </a>
-            <!-- <a href="#">
-              <i class="mdi mdi-youtube"></i>
-            </a> -->
-            <a href="https://www.linkedin.com/in/charmynemamador/">
-              <i class="mdi mdi-linkedin"></i>
-            </a>
-          </div>
+          <SocialMedia />
         </v-col>
       </v-row>
       <div class="footer-bottom-bar font-14">
@@ -87,7 +74,9 @@ export default {
       data: [],
     };
   },
-  components: {},
+  components: {
+    SocialMedia: () => import("@/layouts/sections/SocialMedia")
+  },
 };
 </script>
  

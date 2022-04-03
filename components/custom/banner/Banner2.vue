@@ -9,10 +9,13 @@
           <v-col xl="6" lg="6" md="12" sm="12" xs="12" class="align-left">
             <div class="text-left">
               <h2 class="banner2-title font-weight-light">
-                <p>I’m Charmyne Mamador,</p>
+                <p>I’m Charmyne Mamador,</p></h2>
+              <h2 class="banner2-subtitle font-weight-light">
                 <p class="font-weight-bold">
                   Information Designer, Visualization Developer & Product Manager
                 </p>
+              </h2>
+              <h2 class="banner2-title font-weight-light">
                 <SocialMedia />
               </h2>
 
@@ -20,7 +23,7 @@
                 <v-btn
                   nuxt
                   large
-                  to="/"
+                  to="/work"
                   class="btn-custom-lg btn-arrow"
                   depressed
                   color="error"
@@ -56,6 +59,7 @@ export default {
     return {};
   },
   methods: {
+
   },
   created(){
 

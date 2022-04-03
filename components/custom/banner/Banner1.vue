@@ -11,7 +11,7 @@
               <v-chip small class="bg-dark" text-color="white">
                 work in progress
               </v-chip>
-              <h2
+              <h4
                 class="
                   banner1-title
                   font-weight-bold
@@ -20,7 +20,7 @@
                 "
               >
                 information design and data visualization
-              </h2>
+              </h4>
               <!-- <p class="white--text op-8 font-weight-regular">
                 Pellentesque vehicula eros a dui pretium ornare. Phasellus
                 congue vel quam nec luctus.In accumsan at eros in dignissim.
