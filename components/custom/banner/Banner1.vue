@@ -31,7 +31,7 @@
                   nuxt
                   large
                   rounded
-                  to="/home"
+                  to="/"
                   class="btn-custom-md"
                   depressed
                   color="white"
