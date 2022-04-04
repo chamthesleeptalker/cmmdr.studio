@@ -1,8 +1,8 @@
 {
-  "name": "NextKit-Free-Nuxt-Js-UI-Kit",
+  "name": "cmmdr.studio",
   "version": "1.0.0",
   "private": true,
-  "description": "NextUI - Free Nuxt Js UI Kit",
+  "description": "cmmdr.studio",
   "author": "Wrappixel",
   "scripts": {
     "dev": "nuxt",
