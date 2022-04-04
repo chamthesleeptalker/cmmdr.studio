@@ -1,7 +1,24 @@
 <template>
   <div>
       <Header1 />
-      <Banner1 />
+      <v-container class="justify-center" style="text-align:center;">
+      <img
+        src="@/assets/images/about-me/1.png"
+        class="img-fluid about-me-img"
+        alt="about-me"
+      />
+      <img
+        src="@/assets/images/about-me/2.png"
+        class="img-fluid about-me-img"
+        alt="about-me"
+      />
+      <img
+        src="@/assets/images/about-me/3.png"
+        class="img-fluid about-me-img"
+        alt="about-me"
+      />
+      </v-container>
+      <!-- <Banner1 /> -->
   </div>
 </template>
 
@@ -20,3 +37,8 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped>
+.about-me-img{
+  max-width:70%;
+}
+</style>

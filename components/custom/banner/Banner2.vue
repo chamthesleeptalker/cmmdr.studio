@@ -20,7 +20,7 @@
               </h2>
 
               <div class="mt-16 pt-2">
-                <v-btn
+                <!-- <v-btn
                   nuxt
                   large
                   to="/work"
@@ -31,7 +31,7 @@
                 >
                   <span>Check My Work</span>
                   <i class="mdi mdi-arrow-right"></i>
-                </v-btn>
+                </v-btn> -->
               </div>
             </div>
           </v-col>

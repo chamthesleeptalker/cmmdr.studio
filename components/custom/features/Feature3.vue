@@ -37,8 +37,7 @@
                     to="/"
                     elevation="0"
                   >
-                    <span>Explore More</span>
-                    <i class="mdi mdi-arrow-right"></i>
+                  <n-link class="nav-link" style="text-decoration:none;color:white;" nuxt to="/to-all-the-women-of-the-world"> <span>Explore this project</span> <i class="mdi mdi-arrow-right"></i> </n-link>
                   </v-btn>
                 </div>
               </v-card-text>
