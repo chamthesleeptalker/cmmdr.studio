@@ -1,7 +1,7 @@
 export const portfolio = [
     {
         src:require("@/assets/images/portfolio/img1.jpg"),
-        title:"To all the Women of the World: A Data Project",
+        title:"To all the Women of the World: A Data Portrait Project",
         desc:"",
         page:"to-all-the-women-of-the-world"
     },

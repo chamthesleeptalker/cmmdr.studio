@@ -29,15 +29,16 @@
                   <p>
                     Awesome women shared their thoughts about #iwd2022, gender bias, and empowering each other.
                   </p>
+                  <!-- <n-link class="nav-link" style="text-decoration:none;color:white;" nuxt to="/to-all-the-women-of-the-world"></n-link> -->
                   <v-btn
                     color="error"
                     class="btn-custom-lg linking mt-10 btn-arrow"
                     nuxt
                     large
-                    to="/"
+                    to="/to-all-the-women-of-the-world"
                     elevation="0"
                   >
-                  <n-link class="nav-link" style="text-decoration:none;color:white;" nuxt to="/to-all-the-women-of-the-world"> <span>Explore this project</span> <i class="mdi mdi-arrow-right"></i> </n-link>
+                   <span>Explore this project</span> <i class="mdi mdi-arrow-right"></i> 
                   </v-btn>
                 </div>
               </v-card-text>

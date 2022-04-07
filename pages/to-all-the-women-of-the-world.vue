@@ -49,7 +49,7 @@ export default {
   name: "ToAllTheWomenOfTheWorld",
   data() {
     return {
-        title:"To all the Women of the World: A Data Project",
+        title:"To all the Women of the World: A Data Portrait Project",
         desc:"<p>Awesome women shared their thoughts about #iwd2022, gender bias, and empowering each other.<br>#BreakTheBias, the official hashtag for this year's International Women's Month, is a call for everyone to join hands and work together to shape a world that is safe, inclusive, and free from biases and discrimination. </p>",
         page:""
     };
