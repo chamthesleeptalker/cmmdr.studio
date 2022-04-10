@@ -15,7 +15,7 @@ export const portfolio = [
         src:require("@/assets/images/portfolio/img3.jpg"),
         title:"Sephora Flowers",
         desc:"",
-        page:"/"
+        page:"/sephora-flowers"
     },
     {
         src:require("@/assets/images/portfolio/img4.jpg"),

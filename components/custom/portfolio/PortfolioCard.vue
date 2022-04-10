@@ -29,6 +29,7 @@
     <template v-slot:default="{ hover }">
       <v-card
         class="portfolio-card overflow-hidden"
+        :to="item.page"
       >
         <v-img :src="item.src"></v-img>
 
