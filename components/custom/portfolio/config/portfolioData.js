@@ -21,7 +21,7 @@ export const portfolio = [
         src:require("@/assets/images/portfolio/img4.jpg"),
         title:"Trees of Innovation",
         desc:"",
-        page:"/"
+        page:"/trees-of-innovation"
     },
     {
         src:require("@/assets/images/portfolio/img5.jpg"),
