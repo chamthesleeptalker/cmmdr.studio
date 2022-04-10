@@ -12,7 +12,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s",
+    titleTemplate: "cmmdr.studio",
     title: "cmmdr.studio",
     htmlAttrs: {
       lang: "en"
