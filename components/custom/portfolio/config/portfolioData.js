@@ -27,7 +27,7 @@ export const portfolio = [
         src:require("@/assets/images/portfolio/img5.jpg"),
         title:"Celebrating 5 years of Crowd2Map Tanzania",
         desc:"",
-        page:"/"
+        page:"/crowd2map-tanzania"
     },
     {
         src:require("@/assets/images/portfolio/img6.jpg"),
