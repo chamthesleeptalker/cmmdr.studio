@@ -4,7 +4,9 @@ export default {
   
   target: 'static',
   router: {
-    base: '/cmmdr.studio/'
+    // base: '/cmmdr.studio/'
+    base: '/'
+
   },
   extractCSS: true,
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
