@@ -12,27 +12,27 @@
         class="img-fluid about-me-img"
         alt="about-me"
       />
-      <!-- <img
-        src="@/assets/images/about-me/3.png"
-        class="img-fluid about-me-img"
-        alt="about-me"
-      /> -->
+      <v-row >
+        <v-col v-for="award in awards" :key="award.name" class="ma-0 pa-0" cols="12" md="6" lg="4">
+          {{award.name}}
+        </v-col>
+      </v-row>
       </v-container>
-      <!-- <Banner1 /> -->
   </div>
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { awards } from "@/data/resume";
 export default {
   name: "about-me",
   data() {
-    return {};
+    return {
+      awards
+    };
   },
 
   components: {
     Header1: () => import("@/components/custom/header/Header1"),
-    // ComingSoon: () => import("@/components/shared/coming-soon/ComingSoon"),
     Banner1: () => import("@/components/custom/banner/Banner1"),
   },
 };
