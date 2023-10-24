@@ -39,8 +39,8 @@
             absolute
             color="#04010f"
             opacity="0.8"
-            light=true
-            dark=false
+            :light="true"
+            :dark="false"
             class="pa-3"
           >
           <v-container>  
@@ -69,6 +69,8 @@ export default {
     return {
         absolute: true,
         overlay: false,
+        darkB:false,
+        lightB:true
     };
   },
 };

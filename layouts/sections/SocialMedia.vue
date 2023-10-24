@@ -1,9 +1,9 @@
 <template>
   <div class="social_media">
     <div class="social-icons mt-10">
-            <a href="https://www.facebook.com/cmmdr.studio">
+            <!-- <a href="https://www.facebook.com/cmmdr.studio">
               <i class="mdi mdi-facebook"></i>
-            </a>
+            </a> -->
             <a href="https://twitter.com/c_mmdr">
               <i class="mdi mdi-twitter"></i>
             </a>

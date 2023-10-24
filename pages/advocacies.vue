@@ -9,7 +9,7 @@
         <v-col cols="12" sm="12" md="12" class="d-flex align-center">
           <div>
             <h1 class="text-h1">
-              data visualization and storytelling
+              Advocacies
             </h1>
           </div>
         </v-col>

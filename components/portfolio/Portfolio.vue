@@ -150,7 +150,7 @@ export default {
     };
   },
   components: {
-    PortfolioCard: () => import("@/components/custom/portfolio/PortfolioCard")
+    PortfolioCard: () => import("@/components/portfolio/PortfolioCard")
   },
   methods: {},
   mounted(){

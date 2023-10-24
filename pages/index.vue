@@ -30,15 +30,15 @@ export default {
     return {};
   },
   components: {
-    Header1: () => import("@/components/custom/header/Header1"),
-    Banner2: () => import("@/components/custom/banner/Banner2"),
-    Feature3: () => import("@/components/custom/features/Feature3"),
-    FormBanner1: () => import("@/components/custom/form-banner/FormBanner1"),
-    PortfolioText: () => import("@/components/custom/portfolio/PortfolioText"),
-    Portfolio: () => import("@/components/custom/portfolio/Portfolio"),
-    Blog: () => import("@/components/custom/blogs/Blog"),
-    ContactText: () => import("@/components/custom/contact/ContactText"),
-    Contact: () => import("@/components/custom/contact/Contact"),
+    Header1: () => import("@/components/header/Header1"),
+    Banner2: () => import("@/components/banner/Banner2"),
+    Feature3: () => import("@/components/features/Feature3"),
+    FormBanner1: () => import("@/components/form-banner/FormBanner1"),
+    PortfolioText: () => import("@/components/portfolio/PortfolioText"),
+    Portfolio: () => import("@/components/portfolio/Portfolio"),
+    Blog: () => import("@/components/blogs/Blog"),
+    ContactText: () => import("@/components/contact/ContactText"),
+    Contact: () => import("@/components/contact/Contact"),
   },
 };
 </script>

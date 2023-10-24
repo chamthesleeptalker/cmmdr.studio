@@ -14,8 +14,8 @@ export default {
   },
 
   components: {
-    Header1: () => import("@/components/custom/header/Header1"),
-    ComingSoon: () => import("@/components/shared/coming-soon/ComingSoon"),
+    Header1: () => import("@/components/header/Header1"),
+    ComingSoon: () => import("@/components/coming-soon/ComingSoon"),
   },
 };
 </script>

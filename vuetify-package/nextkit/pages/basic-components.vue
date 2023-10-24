@@ -25,8 +25,8 @@ export default {
     return {};
   },
   components: {
-    BannerTwo: () => import("@/components/shared/lp-banner/BannerTwo"),
-    ComingSoon: () => import("@/components/shared/coming-soon/ComingSoon"),
+    BannerTwo: () => import("@/components/lp-banner/BannerTwo"),
+    ComingSoon: () => import("@/components/coming-soon/ComingSoon"),
     AllComponents: () => import("@/components/basic/AllComponents"),
   },
 };

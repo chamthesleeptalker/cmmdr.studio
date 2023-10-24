@@ -14,7 +14,7 @@ export default {
     }
   },
   components: {
-    Banner: () => import("@/components/shared/lp-banner/BannerComingSoon")
+    Banner: () => import("@/components/lp-banner/BannerComingSoon")
   },
   data() {
     return {

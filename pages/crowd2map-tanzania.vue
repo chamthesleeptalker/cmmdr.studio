@@ -147,8 +147,8 @@ export default {
     },
   },
   components: {
-    Header1: () => import("@/components/custom/header/Header1"),
-    Banner1: () => import("@/components/custom/banner/Banner1"),
+    Header1: () => import("@/components/header/Header1"),
+    Banner1: () => import("@/components/banner/Banner1"),
     HorizontalScroll,
   },
 };
