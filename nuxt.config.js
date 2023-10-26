@@ -4,8 +4,8 @@ export default {
   
   target: 'static',
   router: {
-    base: '/cmmdr.studio/'
-    // base: '/'
+    // base: '/cmmdr.studio/'
+    base: '/'
 
   },
   extractCSS: true,
