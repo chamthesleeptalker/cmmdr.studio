@@ -8,7 +8,7 @@
         <v-row>
           <v-col cols="12" lg="10">
             <v-img
-              :src="require('@/assets/images/features/3/feature-img.jpg')"
+              :src="require('@/assets/images/features/3/feat-img.png')"
               alt="feature"
               class="rounded"
             />
@@ -18,16 +18,16 @@
               <v-card-text>
                 <div class="pa-10 text-center">
                   <v-chip small color="info" text-color="white">
-                    Data Portrait
+                    Data Story
                   </v-chip>
                   <v-chip small color="success" text-color="white">
                     Latest
                   </v-chip>
                   <h3 class="feature3-title font-weight-medium">
-                    To all the WOMEN of the world
+                    Flowers and Tracks: A visual and cartographic exploration
                   </h3>
                   <p>
-                    Awesome women shared their thoughts about #iwd2022, gender bias, and empowering each other.
+                    A visual comparison of typhoon tracks and with the beautiful <i>sakura</i>.
                   </p>
                   <!-- <n-link class="nav-link" style="text-decoration:none;color:white;" nuxt to="/to-all-the-women-of-the-world"></n-link> -->
                   <v-btn
@@ -35,7 +35,7 @@
                     class="btn-custom-lg linking mt-10 btn-arrow"
                     nuxt
                     large
-                    to="/to-all-the-women-of-the-world"
+                    to="/flowers-and-tracks"
                     elevation="0"
                   >
                    <span>Explore this project</span> <i class="mdi mdi-arrow-right"></i> 

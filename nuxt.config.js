@@ -4,8 +4,8 @@ export default {
   
   target: 'static',
   router: {
-    // base: '/cmmdr.studio/'
-    base: '/'
+    base: '/cmmdr.studio/'
+    // base: '/'
 
   },
   extractCSS: true,
@@ -30,6 +30,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["~/assets/scss/style.scss"],
+
+  // layouts: {
+  //   default:'~/layouts/default.vue',
+  //   drawer:'~/layouts/drawer.vue',
+  //   test:'~/layouts/test.vue',
+  // },
 
   // Customize the progress-bar color
   loading: {

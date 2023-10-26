@@ -1,8 +1,16 @@
 <template>
-  <div>
-    <!-- -----------------------------------------------
-          Start Header
-    ----------------------------------------------- -->
+  <v-app dark>
+    <v-navigation-drawer app>
+      <v-list-item>
+        <v-list-item-content>
+          <v-list-item-title class="text-h6"> Learning Vuetify </v-list-item-title>
+          <v-list-item-subtitle> Navigation drawers</v-list-item-subtitle>
+        </v-list-item-content>
+      </v-list-item>
+      <v-divider></v-divider>
+      <v-list dense nav>
+      </v-list>
+    </v-navigation-drawer>
     <v-app-bar
       app
       class="app-header position-relative navbar-light header1"
@@ -37,11 +45,11 @@
               <n-link class="nav-link" nuxt to="/about-me"> About Me </n-link>
             </li>
             <li class="nav-item" text>
-              <n-link class="nav-link" nuxt to="/work"> Projects </n-link>
+              <n-link class="nav-link" nuxt to="/work"> Work </n-link>
             </li>
-            <!-- <li class="nav-item" text>
-              <n-link class="nav-link" nuxt to="/community"> Community </n-link>
-            </li> -->
+            <li class="nav-item" text>
+              <n-link class="nav-link" nuxt to="/advocacies"> Advocacies </n-link>
+            </li>
             <!-- <li class="nav-item" text>
               <n-link class="nav-link" nuxt to="/blog"> Blog </n-link>
             </li> -->
@@ -60,24 +68,22 @@
         </v-btn> -->
       </v-container>
     </v-app-bar>
-    <!-- -----------------------------------------------
-          End Header
-    ----------------------------------------------- -->
-  </div>
+    <v-main>
+      <nuxt />
+    </v-main>
+    <Footer />
+  </v-app>
 </template>
 
 <script>
 export default {
-  name: "Header1",
-  data() {
-    return {
-      isActive: false,
-    };
+  name:'drawer',
+  components: {
+    Header: () => import("@/layouts/sections/Header"),
+    Footer: () => import("@/layouts/sections/Footer")
   },
-  methods: {
-    toggleClass: function (event) {
-      this.isActive = !this.isActive;
-    },
-  },
+  methods: {}
 };
 </script>
+
+<style></style>

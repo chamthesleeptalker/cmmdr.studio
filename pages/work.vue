@@ -9,13 +9,13 @@
         <v-col cols="12" sm="12" md="12" class="d-flex align-center">
           <div>
             <h1 class="text-h1">
-              data visualization and storytelling
+              {{ portfolio['dataViz']['title'] }}
             </h1>
           </div>
         </v-col>
       </v-row>
       <v-container class="portfolio-row ma-0 pt-20">
-          <v-row v-for="item in portfolio" :key="item.src" class="ma-0 pa-0">
+          <v-row v-for="item in portfolio['dataViz']['works'] " :key="item.title" class="ma-0 pa-0">
             <v-col cols="4" md="4" lg="4">
                 <portfolio-card :item="item"></portfolio-card>
             </v-col>
@@ -54,7 +54,6 @@ export default {
   },
   methods: {},
   mounted(){
-    console.log(this.portfolio);
   }
 };
 </script>
