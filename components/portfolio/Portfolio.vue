@@ -19,7 +19,7 @@
             Start Portfolio
         ----------------------------------------------- -->
         <v-row class="portfolio-row ma-0 pa-0">
-          <v-col v-for="item in portfolio['dataViz']['works']" :key="item.title" class="ma-0 pa-0" cols="12" md="6" lg="4">
+          <v-col v-for="item in (portfolio['dataViz']['works']).slice(1,)" :key="item.title" class="ma-0 pa-0" cols="12" md="6" lg="4">
             <portfolio-card :item="item"></portfolio-card>
           </v-col>
         </v-row>
