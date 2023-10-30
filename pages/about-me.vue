@@ -1,7 +1,7 @@
 <template>
-  <v-container>
+  <div>
     <Header1 />
-    <v-container>
+    <v-container class="mt-5">
       <v-row>
         <v-container>
           <v-row>
@@ -59,7 +59,7 @@
       <v-btn-toggle v-model="toggle" color="black" variant="text" class="mb-10">
         <v-btn :active="activeCategory == 'dataViz'" @click="activeCategory = 'dataViz'"> Data Viz </v-btn>
         <v-btn :active="activeCategory == 'product'" @click="activeCategory = 'product'"> Product </v-btn>
-        <v-btn :active="activeCategory == 'gisdev'" @click="activeCategory = 'gisdev'"> Geospatial Solutions </v-btn>
+        <v-btn :active="activeCategory == 'gisDev'" @click="activeCategory = 'gisDev'"> Geospatial Solutions </v-btn>
       </v-btn-toggle>
       <br>
       <h1 class="mt-5">
@@ -121,7 +121,7 @@
     </v-row>
     </v-container>
     <br>
-  </v-container>
+  </div>
 </template>
 
 <script>

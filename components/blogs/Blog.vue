@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="blog-component mini-spacer">
+    <div class="blog-component">
       <v-container>
         <!-- -----------------------------------------------
             Start Blog Text
@@ -10,9 +10,7 @@
             <div class="text-center">
               <h2 class="section-title font-weight-medium">Recent Blogs</h2>
               <p>
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
+                Check out these events, reviews, experiments, features, and so on that I want to share with you and the community! 
               </p>
             </div>
           </v-col>
@@ -25,35 +23,36 @@
             Start Blog
         ----------------------------------------------- -->
         <v-row class="mt-13" justify="center">
-          <v-col cols="12" md="6" lg="4">
+          <v-col v-for="blog in blogs" :key="blog.title" cols="12" md="6" lg="4">
             <v-card elevation="0" class="blog-card overflow-hidden mb-15">
               <div class="position-relative mb-15">
-                <a href="#">
+                <a :to="blog.page">
                   <v-img
-                    :src="require('@/assets/images/blog/img1.jpg')"
+                    :src="blog.src"
                     alt="blog"
                     class="blog-img"
+                    cover
                   />
                 </a>
                 <div class="date-badge bg-info-grediant">
-                  Oct <span>23</span>
+                  {{blog.date[0]}} <span>{{blog.date[1]}}</span>
                 </div>
               </div>
               <div>
-                <a
-                  href="#"
+                <p
+                :to="blog.page"
                   class="
                     blog-title
                     text-decoration-none
                     font-weight-medium font-18
                   "
-                  >Learn from small things to create something bigger.</a
+                  >{{blog.title}}</p
                 >
                 <p class="mt-10 mb-10">
-                  Business Park, Opp. Corns Sam Restaurant, New Yoark, US
+                  {{blog.desc}}
                 </p>
-                <a
-                  href="#"
+                <v-btn
+                  :to="blog.page"
                   class="
                     text-themecolor
                     linking
@@ -62,92 +61,8 @@
                     align-center
                   "
                 >
-                  Learn More <i class="mdi mdi-arrow-right"></i>
-                </a>
-              </div>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="6" lg="4">
-            <v-card elevation="0" class="blog-card overflow-hidden mb-15">
-              <div class="position-relative mb-15">
-                <a href="#">
-                  <v-img
-                    :src="require('@/assets/images/blog/img2.jpg')"
-                    alt="blog"
-                    class="blog-img"
-                  />
-                </a>
-                <div class="date-badge bg-info-grediant">
-                  Oct <span>23</span>
-                </div>
-              </div>
-              <div>
-                <a
-                  href="#"
-                  class="
-                    blog-title
-                    text-decoration-none
-                    font-weight-medium font-18
-                  "
-                  >New Seminar on Newest Food Recipe from World’s Best</a
-                >
-                <p class="mt-10 mb-10">
-                  Business Park, Opp. Corns Sam Restaurant, New Yoark, US
-                </p>
-                <a
-                  href="#"
-                  class="
-                    text-themecolor
-                    linking
-                    text-decoration-none
-                    d-flex
-                    align-center
-                  "
-                >
-                  Learn More <i class="mdi mdi-arrow-right"></i>
-                </a>
-              </div>
-            </v-card>
-          </v-col>
-          <v-col cols="12" md="6" lg="4">
-            <v-card elevation="0" class="blog-card overflow-hidden mb-15">
-              <div class="position-relative mb-15">
-                <a href="#">
-                  <v-img
-                    :src="require('@/assets/images/blog/img3.jpg')"
-                    alt="blog"
-                    class="blog-img"
-                  />
-                </a>
-                <div class="date-badge bg-info-grediant">
-                  Oct <span>23</span>
-                </div>
-              </div>
-              <div>
-                <a
-                  href="#"
-                  class="
-                    blog-title
-                    text-decoration-none
-                    font-weight-medium font-18
-                  "
-                  >You should have eagle’s eye on new trends and techonogies</a
-                >
-                <p class="mt-10 mb-10">
-                  Business Park, Opp. Corns Sam Restaurant, New Yoark, US
-                </p>
-                <a
-                  href="#"
-                  class="
-                    text-themecolor
-                    linking
-                    text-decoration-none
-                    d-flex
-                    align-center
-                  "
-                >
-                  Learn More <i class="mdi mdi-arrow-right"></i>
-                </a>
+                  Read <i class="mdi mdi-arrow-right"></i>
+              </v-btn>
               </div>
             </v-card>
           </v-col>
@@ -163,9 +78,17 @@
 <script>
 export default {
   name: "Blog",
+  props:{
+    blogs: Array,
+  },
   data() {
     return {};
   },
   methods: {},
 };
 </script>
+<style lang="scss">
+.blog-img {
+  height:250px;
+}
+</style>

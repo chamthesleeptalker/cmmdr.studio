@@ -19,7 +19,7 @@
             Start Portfolio
         ----------------------------------------------- -->
         <v-row class="portfolio-row ma-0 pa-0">
-          <v-col v-for="item in (portfolio['dataViz']['works']).slice(1,)" :key="item.title" class="ma-0 pa-0" cols="12" md="6" lg="4">
+          <v-col v-for="item in works.slice(1,)" :key="item.title" class="ma-0 pa-0" cols="12" md="6" lg="4">
             <portfolio-card :item="item"></portfolio-card>
           </v-col>
         </v-row>
@@ -32,10 +32,13 @@
   </div>
 </template>
 <script>
-import { portfolio } from "./config/portfolioData";
+import { portfolio } from "@/data/portfolio";
 
 export default {
   name: "Portfolio",
+  props: {
+    works: Array,
+  },
   data() {
     return {
       portfolio,

@@ -10,7 +10,6 @@
               <p class="text-h4 portfolio-card-title">
                 {{ item.title }}
               </p>
-              {{ item.desc }}
             </v-container>
 
           </v-overlay>

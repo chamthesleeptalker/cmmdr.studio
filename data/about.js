@@ -1,12 +1,15 @@
 export const aboutCategories = {
     "dataViz": {
-        role:"data visualization specialist"
+        role:"data visualization specialist",
+        label:"",
     },
     "product": {
-        role:"product manager"
+        role:"product manager",
+        label:"",
     },
-    "gisdev": {
-        role:"GIS developer"
+    "gisDev": {
+        role:"GIS developer",
+        label:"",
     }
 };
 
@@ -278,7 +281,7 @@ explore diverse capabilities and maximize their impact.`],
             links: []
         },
     ],
-    gisdev:[
+    gisDev:[
         {
             title: "ElasticDocs: AI-powered Intuitive Knowledge Container",
             subtitle: "Iraya Energies",
@@ -437,7 +440,7 @@ export const aboutSummary = {
     with human-centered solutions.
     My goal is to drive innovation, create meaningful impact, and empower individuals and communities through
     technology and design.`,
-    "gisdev":`
+    "gisDev":`
     A versatile geospatial engineer skilled in leveraging technology across energy, geospatial data, visualization, and
 human-centered design. I strongly believe in the power of design thinking to solve complex problems with
 human-centered solutions. My goal is to drive innovation, create meaningful impact, and empower individuals and

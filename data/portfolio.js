@@ -62,11 +62,69 @@ export const portfolio = {
     },
     "product": {
         title: "Product Development",
-        works: []
+        works: [
+            {
+                src:"https://www.irayaenergies.com/wp-content/uploads/2022/02/brochure.png",
+                title: "ElasticDocs, AI-powered Intuitive Knowledge Container",
+                desc: "ElasticDocs is Iraya's flagship products that optimizes an organization's knowledge investment by making it searchable and usable than ever.",
+                data: "Iraya Energies",
+                date: "",
+                page: "/projects/elasticdocs-iraya"
+            },
+            {
+                src:require("@/assets/images/portfolio/projects/da.png"),
+                title: "Data Atelier",
+                desc: "Data Atelier aims to democratize data access and availability for search and further processing by empowering users to upcycle their organization's data investment.",
+                data: "Iraya Energies",
+                date: "",
+                page: "/projects/da-iraya"
+            },
+        ]
     },
     "gisDev": {
         title: "Research & Digital Solutions",
-        works: []
+        works: [
+            {
+                src: require("@/assets/images/portfolio/projects/PhilSHORE.png"),
+                title: "Philippine Sites for Harnessing Ocean Renewable Energy",
+                desc: "The PhilSHORE project evaluated the Philippine's potential for tidal current energy.",
+                data: "Training Center for Applied Geodesy and Photogrammetry",
+                date: "",
+                page: "/projects/philshore"
+            },
+            {
+                src: require("@/assets/images/portfolio/projects/dTracker.png"),
+                title: "Diwata-1 Satellite Tracker",
+                desc: "The Diwata-1 Tracker visualizes current satellite location and future path as a guide to be used for image capture missions.",
+                data: "PHL-Microsat (Philippine Microsatellite Project)",
+                date: "",
+                page: "/projects/diwata-tracker"
+            },
+            {
+                src: require("@/assets/images/portfolio/projects/dDist.png"),
+                title: "Diwata-1 Satellite Image Distribution and Image Request Platform",
+                desc: "Images captured by the Diwata-1 Microsatellite can be accessed through this platform. Imagery for new locations along the satelitte path can be requested as well.",
+                data: "PHL-Microsat (Philippine Microsatellite Project)",
+                date: "",
+                page: "/projects/diwata-distribution"
+            },
+            {
+                src: require("@/assets/images/portfolio/projects/sra.png"),
+                title: "Yield Estimation System for Sugarcane Project",
+                desc: "The SRA-YESS WebGIS platform served as a dashboard to make data-driven decisions to predict and optimize farm output.",
+                data: "Sugar Regulatory Administrator",
+                date: "",
+                page: "/projects/sra-yess"
+            },
+            {
+                src: require("@/assets/images/portfolio/projects/filgeo.png"),
+                title: "Pasil B and C Hydroelectric Plant Project and the National Greening Program",
+                desc: "This project visualization tool enabled ground personnel to have a compact and portable way to display relevant project datasets.",
+                data: "Fil Geosolutions Inc.",
+                date: "",
+                page: "/projects/filgeo"
+            },
+        ]
     },
 
 }

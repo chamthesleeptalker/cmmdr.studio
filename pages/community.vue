@@ -11,7 +11,7 @@
   </div>
 </template>
 <script>
-import { portfolio } from "@/components/portfolio/config/portfolioData";
+import { portfolio } from "@/data/portfolio";
 
 export default {
   name: "Work",
